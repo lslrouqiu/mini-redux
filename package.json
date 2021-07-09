@@ -1,0 +1,29 @@
+{
+  "name": "mini-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/lib/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "npm run build && babel  test --out-dir test-lib && node test-lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lslrouqiu/mini-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lslrouqiu/mini-redux/issues"
+  },
+  "homepage": "https://github.com/lslrouqiu/mini-redux#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4"
+  },
+  "dependencies": {
+    "redux": "^4.1.0"
+  }
+}
